@@ -4,6 +4,7 @@
   "description": "Intermediate level bot challenge for codecheck sprint2",
   "main": "index.js",
   "scripts": {
+    "start": "node ./app/server.js",
     "test": "mocha tests --recursive"
   },
   "repository": {
@@ -27,6 +28,7 @@
     "express": "^4.13.4",
     "http": "0.0.0",
     "url": "^0.11.0",
-    "ws": "^1.1.0"
+    "ws": "^1.1.0",
+    "tsc": "^1.5.3"
   }
 }
