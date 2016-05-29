@@ -34,3 +34,4 @@ function scientificNotation(num) {
     return result;
 }
 module.exports = Bot;
+//# sourceMappingURL=bot.js.map
