@@ -1,3 +1,4 @@
+"use strict";
 /**
  * Map_
  */
@@ -41,7 +42,7 @@ var Map_ = (function () {
         return this.array.map(function (kv) { return kv.value; });
     };
     return Map_;
-})();
+}());
 /**
  * KVPair
  */
@@ -51,6 +52,6 @@ var KVPair = (function () {
         this.value = value;
     }
     return KVPair;
-})();
+}());
 module.exports = Map_;
 //# sourceMappingURL=map.js.map

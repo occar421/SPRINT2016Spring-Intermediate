@@ -1,4 +1,5 @@
 ///<reference path="../typings/index.d.ts" />
+"use strict";
 var Map_ = require("./map");
 /**
  * Manager
@@ -24,6 +25,6 @@ var Manager = (function () {
         });
     };
     return Manager;
-})();
+}());
 module.exports = Manager;
 //# sourceMappingURL=manager.js.map
